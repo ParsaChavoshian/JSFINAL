@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Final Gallery</title>
+    <link rel="stylesheet" href="final.css">
+</head>
+
+<body onload="initGallery()">
+
+    <h1>My Photo Gallery</h1>
+
+    <!-- Big display area -->
+    <div id="display">
+        Hover over or focus on an image below.
+    </div>
+
+    <!-- Image gallery -->
+    <div class="gallery">
+        <img src="akbarnemati-damavand-7210835_1920.jpg" alt="Mount Damavand"
+            onmouseover="showImage(this)"
+            onmouseleave="resetImage()"
+            onfocus="showImage(this)"
+            onblur="resetImage()">
+
+        <img src="akbarnemati-library-7227511_1920.jpg" alt="Iran Mall Library"
+            onmouseover="showImage(this)"
+            onmouseleave="resetImage()"
+            onfocus="showImage(this)"
+            onblur="resetImage()">
+
+        <img src="footsteps-left-in-sand-dunes.jpg" alt="footsteps in desert"
+            onmouseover="showImage(this)"
+            onmouseleave="resetImage()"
+            onfocus="showImage(this)"
+            onblur="resetImage()">
+
+        <img src="frank497-tehran-642743_1920.jpg" alt="Tehran"
+            onmouseover="showImage(this)"
+            onmouseleave="resetImage()"
+            onfocus="showImage(this)"
+            onblur="resetImage()">
+
+        <img src="javad_esmaeili-azadi-tower-6974106_1920.jpg" alt="Azadi Tower"
+            onmouseover="showImage(this)"
+            onmouseleave="resetImage()"
+            onfocus="showImage(this)"
+            onblur="resetImage()">
+
+        <img src="mostafa_meraji-bikes-6788383_1920.jpg" alt="Bike driver"
+            onmouseover="showImage(this)"
+            onmouseleave="resetImage()"
+            onfocus="showImage(this)"
+            onblur="resetImage()">
+    </div>
+
+    <script src="final.js"></script>
+
+</body>
+</html>
