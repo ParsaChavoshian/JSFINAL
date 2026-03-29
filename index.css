@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#display {
+    width: 60%;
+    height: 300px;
+    margin: 20px auto;
+    border: 2px solid black;
+    line-height: 300px;
+    background-size: cover;
+    background-position: center;
+    color: black;
+    font-size: 20px;
+}
+
+.gallery img {
+    width: 150px;
+    margin: 10px;
+    border: 2px solid #ccc;
+    cursor: pointer;
+}
+
+.gallery img:focus {
+    outline: 3px solid blue;
+}
